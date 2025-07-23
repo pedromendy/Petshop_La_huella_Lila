@@ -38,3 +38,30 @@ function EnviarConsulta() {
   
   }
 }
+
+
+
+// Función para detectar el tamaño de pantalla
+function checkScreenSize() {
+  // Obtener el ancho de la ventana
+  let screenWidth = window.innerWidth;
+
+  // Aplicar estilos diferentes según el tamaño de pantalla
+  if (screenWidth <= 768) {
+    // Código para dispositivos móviles
+    document.body.style.backgroundColor = "lightgray";
+    document.body.style.fontSize = "16px";
+    // Agrega más estilos o cambios de diseño aquí
+  } else {
+    // Código para pantallas más grandes
+    document.body.style.backgroundColor = "white";
+    document.body.style.fontSize = "18px";
+    // Agrega más estilos o cambios de diseño aquí
+  }
+}
+
+// Llamar a la función cuando se carga la página
+window.addEventListener("load", checkScreenSize);
+
+// Llamar a la función cuando se redimensiona la ventana
+window.addEventListener("resize", checkScreenSize);
