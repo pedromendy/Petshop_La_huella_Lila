@@ -1,0 +1,231 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7db7fb;
+    margin: 0;
+    padding: 0;
+  }
+header {
+    background-color:#b458ad;
+    color:#ffffff;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:xx-large;
+    height: 100px;
+ }
+
+h1 {
+margin: 0;
+}
+
+nav {
+background-color: #881e83;
+text-align: center;
+padding: 10px;
+}
+nav a {
+ color: #fff;
+ text-decoration: none;
+ margin: 0 10px;
+ font-size: 25px;
+}
+nav a:hover{
+background:#881e83;
+}
+.Logo {
+  height:272px;
+  width: 348px;
+  position: absolute;
+  top: -89px;
+  right: 0px;
+}
+.Huella {
+  height:300px;
+  width: 600px;
+  position: absolute;
+  top: -87px;
+  left: -156px;
+}
+.Imagenes {
+    width: 100%;
+    height: 450px;
+}
+
+.Nombre {
+  width: 250px;
+  text-wrap:stable
+}
+
+.mensaje {
+  width: 400px;
+  height: 50px;
+}
+
+.Productos {
+  text-align: center;
+  margin: 54px;
+}
+
+.ProductosP {
+  text-align: center;
+  margin: 54px;
+  background-color:#b458ad;
+}
+
+.productos3{
+  display: flex;
+  justify-content: space-around;
+  margin: 54px;
+}
+
+.ProductosG {
+  text-align: center;
+  margin: 54px;
+  background-color:#b458ad;
+}
+
+.productos2{
+  display: flex;
+  justify-content: space-around;
+  margin: 54px;
+}
+
+.ProductosZ {
+  text-align: center;
+  margin: 54px;
+}
+.productos4 {
+  display: flex;
+  justify-content: space-around;
+  margin: 53px;
+}
+
+.productosR {
+  text-align: center;
+  margin: 54px;
+}
+
+.productos5 {
+  display: flex;
+  justify-content: space-around;
+  margin: 53px;
+}
+
+
+
+.InfoProducto{
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  position: absolute;
+  right: 16px;
+  top: 275px;
+ }
+
+ .card{
+  border: 1px grey solid;
+  padding: 10px;
+  border-radius: 20px; 
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.Precio {
+  font-size: 35px;
+}
+
+
+.card-text {
+  font-size: 20px;
+}
+/*prueba whatsApp*/
+.whatsapp {
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  z-index:100;}
+
+.whatsapp-icon {
+  margin-top:13px;}
+
+.card-img-top {
+  width: 200px;
+  height: 200px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+.Centro {
+  text-align: center;
+  
+}
+.Izq {
+  text-align: left;
+}
+.Der {
+  text-align: left;
+}
+.material-icons {
+  position: absolute;
+}
+
+.redes-sociales a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.redes-sociales a:hover {
+  color: #00f; /* Cambia el color al pasar el mouse sobre los íconos */
+}
+
+.Form {
+ font: bold;
+}
+
+.borde{
+  border-right: 10px solid #881e83;
+}
+
+.Resumen {
+  max-width: 120px;
+  text-align: center;
+  font-weight: bold;
+}
+.take-away {
+  width: 200px;
+  height: 200px; 
+  display: flex;
+}
+
+.delivery {
+  width: 200px;
+  height: 200px;
+  display: flex;
+ }
+ .Entrega {
+  display: flex;
+  justify-content: space-around;
+ }
+
+ .card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+ }
+
+ .Nosotros {
+
+  font-size: 20px;
+ }
+
